@@ -16,7 +16,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url("/images/bg-pattern-top.svg");
+  background-image: url("../images/bg-pattern-top.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   position: absolute;
@@ -29,7 +29,7 @@ body::before {
 
 body::after {
   content: "";
-  background-image: url("/images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-bottom.svg");
   background-position:left top;
   background-repeat: no-repeat;
   position: absolute;
@@ -60,7 +60,7 @@ body::after {
 }
 .profile-box::before {
   content: "";
-  background-image: url("/images/bg-pattern-card.svg");
+  background-image: url("../images/bg-pattern-card.svg");
   background-position: cetner;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,10 +122,4 @@ padding-top: 35px;
         height: 360px;
         width: 325px;
     }
-
-    .body::before {
-
-    }
-
-    .body::after {}
  }
